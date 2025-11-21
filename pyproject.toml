@@ -1,0 +1,21 @@
+[project]
+name = "pkz-lab"
+version = "0.1.0"
+description = "A playground for coding experiments and creative tinkering"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "tiktoken>=0.5.0",
+    "PyYAML>=6.0",
+    "toon-format @ git+https://github.com/toon-format/toon-python.git",
+    "openai>=2.8.1",
+    "dotenv>=0.9.9",
+]
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = ""
+module-name = "pkz"
