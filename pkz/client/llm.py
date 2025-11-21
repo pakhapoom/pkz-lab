@@ -13,7 +13,8 @@ def generate(
     client: OpenAI,
     user_prompt: str,
     system_prompt: str = None,
-    model: str = "typhoon-v2.5-30b-a3b-instruct",
+    # model: str = "typhoon-v2.5-30b-a3b-instruct",
+    model: str = "typhoon-v2.1-12b-instruct",
     **kwargs,
 ) -> str:
     response = client.chat.completions.create(
