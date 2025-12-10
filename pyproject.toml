@@ -14,6 +14,8 @@ dependencies = [
     "pandas>=2.3.3",
     "streamlit>=1.51.0",
     "matplotlib>=3.10.7",
+    "scipy>=1.11.0",
+    "numpy>=1.24.0",
 ]
 
 [build-system]
